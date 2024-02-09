@@ -1,0 +1,27 @@
+name: Docker Image
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  ghcr:
+    name: ${{ github.ref == 'refs/heads/main' && 'Build and Push' || 'Test Build' }}
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+
+      - name: Login to ghcr.io
+        uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ${{ github.ref == 'refs/heads/main' && 'Build and Push' || 'Test Build' }}
+        uses: docker/build-push-action@4a13e500e55cf31b7a5d59a38ab2040ab0f42f56 # v5
+        with:
+            push: ${{ github.ref == 'refs/heads/main' }}
+            tags: ghcr.io/biaw/file-download-network:latest

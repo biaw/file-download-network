@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+  master:
+    build: .
+    restart: always
+    environment:
+      THIS_IS_MASTER: true
+      CDN_PORT: 8888
+      CDN_URL: http://localhost:8888
+      OTHER_CDNS: http://localhost:1111,http://localhost:2222
+      FILE_DIRECTORY: /files
+      UI_ENABLED: true
+      UI_PORT: 8080
+    volumes:
+      - ./storage:/files
+    ports:
+      - "8080:8080"
+      - "8888:8888"
+  slave1:
+    build: .
+    restart: always
+    environment:
+      THIS_IS_MASTER: false
+      MASTER_URL: http://master:8888
+      CDN_PORT: 1111
+      CDN_URL: http://localhost:1111
+      OTHER_CDNS: http://localhost:8888,http://localhost:2222
+      FILE_DIRECTORY: /files
+      UI_ENABLED: true
+      UI_PORT: 1010
+    volumes:
+      - ./storage1:/files
+    ports:
+      - "1010:1010"
+      - "1111:1111"
+#  slave2:
+#    build: .
+#    restart: always
+#    environment:
+#      THIS_IS_MASTER: false
+#      MASTER_URL: http://master:8888
+#      CDN_PORT: 2222
+#      CDN_URL: http://localhost:2222
+#      OTHER_CDNS: http://localhost:1111,http://localhost:8888
+#      FILE_DIRECTORY: /files
+#      UI_ENABLED: true
+#      UI_PORT: 2020
+#    volumes:
+#      - ./storage2:/files
+#    ports:
+#      - "2020:2020"
+#      - "2222:2222"

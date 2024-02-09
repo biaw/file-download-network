@@ -1,0 +1,7 @@
+{
+  "include": [ "./" ],
+  "extends": ["@tsconfig/node18", "@tsconfig/strictest"],
+  "compilerOptions": {
+    "outDir": "../../build/server"
+  }
+}

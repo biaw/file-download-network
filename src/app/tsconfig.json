@@ -1,0 +1,4 @@
+{
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "extends": ["@tsconfig/remix", "@tsconfig/strictest"]
+}
