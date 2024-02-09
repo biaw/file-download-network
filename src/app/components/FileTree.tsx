@@ -6,9 +6,9 @@ export default function FileTree({ objects, setSelectedFile, folders = [] }: { o
   const toggleIsExpanded = useCallback(() => setIsExpanded(!isExpanded), [isExpanded]);
 
   return <>
-    {Boolean(folders.length) && <p onClick={toggleIsExpanded} className="hover:cursor-pointer">{`/${folders.join("/")}`}</p>}
+    {Boolean(folders.length) && <p onClick={toggleIsExpanded} className="hover:cursor-pointer">{`/${[...folders].pop()}`}</p>}
     <ul className={` ${folders.length % 2 ? "bg-gray-600" : "bg-gray-500"}`}>
-      {objects.map((obj, index) => <li key={index} className={`px-2 ${isExpanded ? "block" : "hidden"}`}>
+      {objects.map((obj, index) => <li key={index} className={`px-2 py-0.5 ${isExpanded ? "block" : "hidden"}`}>
         {obj.type === "file" ?
           <>
             <p onClick={() => setSelectedFile(folders.map(name => `${name}/`).join("") + obj.name)} className="hover:cursor-pointer">{obj.name}</p>
