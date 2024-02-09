@@ -1,0 +1,17 @@
+_extends: .github
+
+repository:
+  name: file-download-network
+  description: "A file distribution server to serve your users with files from multiple locations in the world"
+  private: false
+  topics: "files, download-server, utility"
+
+branches:
+  - name: main
+    protection:
+      required_status_checks:
+        checks:
+          - context: Test Build
+          - context: ESLint
+          - context: DeepScan
+          - context: CodeQL
