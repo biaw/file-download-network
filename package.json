@@ -27,7 +27,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "2.6.0",
+    "@remix-run/dev": "2.8.0",
     "@total-typescript/ts-reset": "0.5.1",
     "@tsconfig/node18": "18.2.2",
     "@tsconfig/remix": "2.0.3",
