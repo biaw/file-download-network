@@ -12,10 +12,10 @@
     "start": "node ."
   },
   "dependencies": {
-    "@remix-run/css-bundle": "2.8.0",
-    "@remix-run/express": "2.8.0",
-    "@remix-run/node": "2.8.0",
-    "@remix-run/react": "2.8.0",
+    "@remix-run/css-bundle": "2.8.1",
+    "@remix-run/express": "2.8.1",
+    "@remix-run/node": "2.8.1",
+    "@remix-run/react": "2.8.1",
     "compression": "1.7.4",
     "dotenv": "16.4.5",
     "express": "4.18.3",
@@ -27,7 +27,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "2.8.0",
+    "@remix-run/dev": "2.8.1",
     "@total-typescript/ts-reset": "0.5.1",
     "@tsconfig/node18": "18.2.2",
     "@tsconfig/remix": "2.0.3",
