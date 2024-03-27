@@ -56,8 +56,8 @@ devDependencies:
     specifier: 18.2.4
     version: 18.2.4
   '@tsconfig/remix':
-    specifier: 2.0.4
-    version: 2.0.4
+    specifier: 2.0.5
+    version: 2.0.5
   '@tsconfig/strictest':
     specifier: 2.0.4
     version: 2.0.4
@@ -1412,8 +1412,8 @@ packages:
     resolution: {integrity: sha512-5xxU8vVs9/FNcvm3gE07fPbn9tl6tqGGWA9tSlwsUEkBxtRnTsNmwrV8gasZ9F/EobaSv9+nu8AxUKccw77JpQ==}
     dev: true
 
-  /@tsconfig/remix@2.0.4:
-    resolution: {integrity: sha512-kBqOWVTBOpJPekPpzCeA/KofNzWMewSBiT+LNXP4ChzalYYfmGnCyxuXgJdMeXRAVg8Eon8D8CVtl4i0l9NRVg==}
+  /@tsconfig/remix@2.0.5:
+    resolution: {integrity: sha512-KawY0Z2oylbBsGbHZFE11O2kXuHF/LfT7NzwPl5CCfgmFy4jsMkVgMfnPQnsPe6Wdu2pNQMRzNoyRHU2PBAO1w==}
     dev: true
 
   /@tsconfig/strictest@2.0.4:
