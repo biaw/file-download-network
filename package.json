@@ -29,7 +29,7 @@
   "devDependencies": {
     "@remix-run/dev": "2.8.1",
     "@total-typescript/ts-reset": "0.5.1",
-    "@tsconfig/node18": "18.2.3",
+    "@tsconfig/node18": "18.2.4",
     "@tsconfig/remix": "2.0.4",
     "@tsconfig/strictest": "2.0.4",
     "@types/express": "4.17.21",
