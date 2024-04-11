@@ -1,4 +1,4 @@
-FROM node:18-alpine@sha256:6d9d5269cbe4088803e9ef81da62ac481c063b60cadbe8e628bfcbb12296d901 AS base
+FROM node:18-alpine@sha256:b869f7da90af6996dbf1910ccf8499984064c3fc957b0667cf1b30db360ae692 AS base
 
 WORKDIR /app
 ENV IS_DOCKER=true
