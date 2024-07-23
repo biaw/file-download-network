@@ -41,7 +41,7 @@
     "eslint": "8.57.0",
     "eslint-config-promise": "github:promise/eslint-config",
     "tailwindcss": "3.4.6",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   },
   "eslintConfig": {
     "extends": "promise",
