@@ -86,8 +86,8 @@ devDependencies:
     specifier: github:promise/eslint-config
     version: github.com/promise/eslint-config/910ecc27092db65f1fcc630fa81accaf83bfdb2f(@stylistic/eslint-plugin-js@1.8.1)(@stylistic/eslint-plugin-jsx@1.8.1)(@stylistic/eslint-plugin-ts@1.8.1)(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint-plugin-i@2.29.1)(eslint-plugin-jest@27.9.0)(eslint-plugin-react@7.35.0)(eslint-plugin-tailwindcss@3.17.4)(eslint@8.57.0)
   tailwindcss:
-    specifier: 3.4.9
-    version: 3.4.9
+    specifier: 3.4.10
+    version: 3.4.10
   typescript:
     specifier: 5.5.4
     version: 5.5.4
@@ -3000,7 +3000,7 @@ packages:
       string.prototype.repeat: 1.0.0
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.9):
+  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.10):
     resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -3008,7 +3008,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.40
-      tailwindcss: 3.4.9
+      tailwindcss: 3.4.10
     dev: true
 
   /eslint-scope@5.1.1:
@@ -5995,8 +5995,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss@3.4.9:
-    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
+  /tailwindcss@3.4.10:
+    resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -6643,5 +6643,5 @@ packages:
       eslint-plugin-i: 2.29.1(@typescript-eslint/parser@7.18.0)(eslint@8.57.0)
       eslint-plugin-jest: 27.9.0(@typescript-eslint/eslint-plugin@7.18.0)(eslint@8.57.0)(typescript@5.5.4)
       eslint-plugin-react: 7.35.0(eslint@8.57.0)
-      eslint-plugin-tailwindcss: 3.17.4(tailwindcss@3.4.9)
+      eslint-plugin-tailwindcss: 3.17.4(tailwindcss@3.4.10)
     dev: true
