@@ -86,8 +86,8 @@ devDependencies:
     specifier: github:promise/eslint-config
     version: github.com/promise/eslint-config/e062a9ff30eea89e140ccf81a9bd4bf85a41ef6a(@stylistic/eslint-plugin-js@1.8.1)(@stylistic/eslint-plugin-jsx@1.8.1)(@stylistic/eslint-plugin-ts@1.8.1)(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint-plugin-i@2.29.1)(eslint-plugin-jest@27.9.0)(eslint-plugin-react@7.37.0)(eslint-plugin-tailwindcss@3.17.4)(eslint@8.57.1)
   tailwindcss:
-    specifier: 3.4.13
-    version: 3.4.13
+    specifier: 3.4.14
+    version: 3.4.14
   typescript:
     specifier: 5.6.3
     version: 5.6.3
@@ -2996,7 +2996,7 @@ packages:
       string.prototype.repeat: 1.0.0
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.13):
+  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.14):
     resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -3004,7 +3004,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.47
-      tailwindcss: 3.4.13
+      tailwindcss: 3.4.14
     dev: true
 
   /eslint-scope@5.1.1:
@@ -5987,8 +5987,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss@3.4.13:
-    resolution: {integrity: sha512-KqjHOJKogOUt5Bs752ykCeiwvi0fKVkr5oqsFNt/8px/tA8scFPIlkygsf6jXrfCqGHz7VflA6+yytWuM+XhFw==}
+  /tailwindcss@3.4.14:
+    resolution: {integrity: sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -6628,5 +6628,5 @@ packages:
       eslint-plugin-i: 2.29.1(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
       eslint-plugin-jest: 27.9.0(@typescript-eslint/eslint-plugin@7.18.0)(eslint@8.57.1)(typescript@5.6.3)
       eslint-plugin-react: 7.37.0(eslint@8.57.1)
-      eslint-plugin-tailwindcss: 3.17.4(tailwindcss@3.4.13)
+      eslint-plugin-tailwindcss: 3.17.4(tailwindcss@3.4.14)
     dev: true
