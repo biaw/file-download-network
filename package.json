@@ -32,7 +32,7 @@
     "@tsconfig/node18": "18.2.4",
     "@tsconfig/remix": "2.0.5",
     "@tsconfig/strictest": "2.0.5",
-    "@types/express": "4.17.21",
+    "@types/express": "5.0.0",
     "@types/morgan": "1.9.9",
     "@types/node": "18.19.59",
     "@types/react": "18.3.12",
